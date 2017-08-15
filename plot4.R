@@ -36,7 +36,7 @@ with(hpc, {
   lines(datetime, Sub_metering_3, col = "blue")
 })
 ## Legend
-legend("topright", col = c("black", "red", "blue"), legend = names(hpc)[7:9], lty = 1, cex = 0.7)
+legend("topright", col = c("black", "red", "blue"), legend = names(hpc)[7:9], lty = 1, cex = 0.7, bty = "n")
 
 ## 4 - Plotting the scatterplot for Global_reactive_power
 with(hpc, 
